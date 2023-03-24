@@ -5,6 +5,8 @@
     font-size: 16px; /* change font units to rem or smth ?? */
     font-weight: normal;
     color: #161616;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h2, h3, h3 span {
@@ -310,4 +312,66 @@ button {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.pricing {
+    width: 86%;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 58px;
+    padding-bottom: 35px;
+}
+
+.pricing__title {
+    text-align: center;
+    padding-bottom: 56px;
+}
+
+.pricing__tariff {
+    width: 270px;
+    height: 324px;
+    border: solid #D3A265 1px;
+    border-radius: 10px;
+}
+
+.pricing__tariff-services {
+    list-style-type: none;
+}
+
+.pricing__tariff-name {
+    font-family: "BN Chester", serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pricing__tariff-cost {
+    font-family: "BN Chester", serif;
+    font-size: 28px;
+    text-align: center; /* CHANGE SMTH */
+    border-bottom: solid #DCD1BB 1px;
+}
+
+.pricing__tariff-cost span {
+    font-size: 16px;
+    color: #BBBBBB;
+}
+
+.pricing__buy-btn {
+    padding: 12px 64px;
+    border-radius: 10px;
+    border-color: #D3A265;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback {
+    background-color: #F4F4F4;
+}
+
+.feedback__title {
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 54px;
 }
